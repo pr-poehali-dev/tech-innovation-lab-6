@@ -14,13 +14,13 @@ export function Footer() {
               Профессиональный ремонт и обслуживание многоквартирных домов. Работаем с УК, ТСЖ и ЖСК.
             </p>
             <div className="flex flex-col space-y-2">
-              <a href="tel:+74951234567" className="flex items-center gap-2 text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="tel:+79656123660" className="flex items-center gap-2 text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Phone size={16} />
-                <span className="font-space-mono text-sm">+7 (495) 123-45-67</span>
+                <span className="font-space-mono text-sm">+7 (965) 612-36-60</span>
               </a>
-              <a href="mailto:info@adr-instroy.ru" className="flex items-center gap-2 text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="mailto:amatsy97@mail.ru" className="flex items-center gap-2 text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Mail size={16} />
-                <span className="font-space-mono text-sm">info@adr-instroy.ru</span>
+                <span className="font-space-mono text-sm">amatsy97@mail.ru</span>
               </a>
               <div className="flex items-center gap-2 text-gray-400">
                 <MapPin size={16} />
