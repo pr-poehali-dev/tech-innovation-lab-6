@@ -29,9 +29,7 @@ export function SafetySection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4 font-orbitron">Почему выбирают АДР Инстрой</h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            Надёжный подрядчик для управляющих компаний и ТСЖ Москвы и Подмосковья
-          </p>
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
