@@ -24,7 +24,7 @@ export function Footer() {
               </a>
               <div className="flex items-center gap-2 text-gray-400">
                 <MapPin size={16} />
-                <span className="font-space-mono text-sm">Москва и Московская область</span>
+                <span className="font-space-mono text-sm">Казань (РТ) — основной регион, Москва</span>
               </div>
             </div>
           </div>
