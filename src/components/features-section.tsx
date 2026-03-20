@@ -61,7 +61,7 @@ export function FeaturesSection() {
             >
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <Icon name={feature.icon} size={32} className="text-red-500" fallback="Wrench" />
+                  <Icon name={feature.icon} size={32} className="text-yellow-600" fallback="Wrench" />
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}
                   </Badge>

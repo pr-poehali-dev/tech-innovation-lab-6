@@ -11,16 +11,16 @@ export function ApplicationsTimeline() {
             и плитки. Приводим в порядок всё, что видят жители каждый день.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Ремонт лестничных клеток
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Замена дверей (тамбурные, домофонные, подвальные)
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Устройство отмосток и плитки
             </div>
           </div>
@@ -36,16 +36,16 @@ export function ApplicationsTimeline() {
             межпанельных швов. Высотные работы собственными силами.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Ремонт фасадов и цоколей (штукатурка / композит)
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Устройство мягкой и скатной кровли
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Герметизация межпанельных швов
             </div>
           </div>
@@ -61,16 +61,16 @@ export function ApplicationsTimeline() {
             Работаем системно — от диагностики до сдачи объекта.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Замена стояков и розливов ГВС/ХВС/канализации
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Опрессовка и промывка центрального отопления
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-600 text-sm">
+              <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
               Замена электрощитов, кабелей и светильников
             </div>
           </div>
