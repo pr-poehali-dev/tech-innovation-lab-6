@@ -7,8 +7,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              АДР<span className="text-green-700">Инстрой</span>
+            <h2 className="font-montserrat text-2xl font-black tracking-tight text-white uppercase mb-4">
+              АДР<span className="text-amber-400">Инстрой</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Профессиональный ремонт и обслуживание многоквартирных домов. Работаем с УК, ТСЖ и ЖСК.
