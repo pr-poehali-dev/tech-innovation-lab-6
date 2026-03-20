@@ -138,9 +138,19 @@ export const Hero3DWebGL = () => {
 
   return (
     <div className="h-screen bg-black relative overflow-hidden">
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${TEXTUREMAP.src})`,
+          filter: "brightness(0.4)",
+        }}
+      />
+
+      {/* Gradient overlays */}
       <div className="absolute inset-0 pointer-events-none z-10">
         <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-black to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-black to-transparent" />
         <div className="absolute top-0 bottom-0 left-0 w-32 bg-gradient-to-r from-black to-transparent" />
         <div className="absolute top-0 bottom-0 right-0 w-32 bg-gradient-to-l from-black to-transparent" />
       </div>
@@ -174,19 +184,6 @@ export const Hero3DWebGL = () => {
           </div>
         </div>
       </div>
-
-      <Canvas
-        flat
-        gl={{
-          antialias: true,
-          alpha: false,
-          powerPreference: "high-performance",
-        }}
-        camera={{ position: [0, 0, 1] }}
-        style={{ background: "#000000" }}
-      >
-        <Scene />
-      </Canvas>
     </div>
   )
 }
