@@ -36,7 +36,7 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-amber-500 hover:bg-amber-600 text-black font-geist font-bold border-0">Получить смету</Button>
+            <Button className="bg-amber-500 hover:bg-amber-600 text-black font-geist font-bold border-0" onClick={() => window.open("https://max.ru/+79656123660", "_blank")}>Получить смету</Button>
           </div>
 
           {/* Mobile menu button */}
@@ -76,7 +76,7 @@ export function Navbar() {
                 Вопросы
               </a>
               <div className="px-3 py-2">
-                <Button className="w-full bg-amber-500 hover:bg-amber-600 text-black font-geist font-bold border-0">
+                <Button className="w-full bg-amber-500 hover:bg-amber-600 text-black font-geist font-bold border-0" onClick={() => window.open("https://max.ru/+79656123660", "_blank")}>
                   Получить смету
                 </Button>
               </div>
