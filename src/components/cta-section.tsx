@@ -8,7 +8,7 @@ export function CTASection() {
           <h2 className="text-5xl font-bold text-foreground mb-6 font-sans text-balance">Готовы обсудить ваш объект?</h2>
           <p className="text-xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
             Оставьте заявку — выедем на объект, сделаем замеры и подготовим смету бесплатно. Работаем с
-            управляющими компаниями и ТСЖ по всей Москве и области.
+            управляющими компаниями и ТСЖ по всей Казани и Москве.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
