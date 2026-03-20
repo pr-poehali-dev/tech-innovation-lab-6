@@ -2,7 +2,7 @@ export function AboutSection() {
   const stats = [
     { value: "30+", label: "видов работ" },
     { value: "500+", label: "объектов сдано" },
-    { value: "10+", label: "лет на рынке" },
+    { value: "7+", label: "лет на рынке" },
     { value: "100%", label: "официальные договоры" },
   ]
 
