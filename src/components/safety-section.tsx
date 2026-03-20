@@ -36,11 +36,11 @@ export function SafetySection() {
           {advantages.map((item, index) => (
             <div
               key={index}
-              className="flex gap-6 p-6 rounded-xl border border-green-900/30 bg-white/5 hover:bg-white/10 transition-all duration-300"
+              className="flex gap-6 p-6 rounded-xl border border-amber-500/30 bg-white/5 hover:bg-white/10 transition-all duration-300"
             >
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-green-900/20 flex items-center justify-center">
-                  <Icon name={item.icon} size={24} className="text-green-900" fallback="Star" />
+                <div className="w-12 h-12 rounded-full bg-amber-400/20 flex items-center justify-center">
+                  <Icon name={item.icon} size={24} className="text-amber-400" fallback="Star" />
                 </div>
               </div>
               <div>

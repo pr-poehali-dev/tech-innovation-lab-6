@@ -161,7 +161,7 @@ export const Hero3DWebGL = () => {
             {titleWords.map((word, index) => (
               <div
                 key={index}
-                className={`${index < visibleWords ? "fade-in" : ""} ${index === 1 ? "text-green-700" : ""}`}
+                className={`${index < visibleWords ? "fade-in" : ""} ${index === 1 ? "text-amber-400" : ""}`}
                 style={{
                   animationDelay: `${index * 0.13 + (delays[index] || 0)}s`,
                   opacity: index < visibleWords ? undefined : 0,
