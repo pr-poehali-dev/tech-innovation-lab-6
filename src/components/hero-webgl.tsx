@@ -114,7 +114,7 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "АДР Инстрой".split(" ")
+  const titleWords = ["АДР", "Инстрой"]
   const subtitle = "Профессиональный ремонт и обслуживание многоквартирных домов."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
@@ -151,7 +151,7 @@ export const Hero3DWebGL = () => {
             {titleWords.map((word, index) => (
               <div
                 key={index}
-                className={index < visibleWords ? "fade-in" : ""}
+                className={`${index < visibleWords ? "fade-in" : ""} ${index === 1 ? "text-red-500" : ""}`}
                 style={{
                   animationDelay: `${index * 0.13 + (delays[index] || 0)}s`,
                   opacity: index < visibleWords ? undefined : 0,
