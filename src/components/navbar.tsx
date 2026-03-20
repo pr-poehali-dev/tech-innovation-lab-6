@@ -12,7 +12,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="font-orbitron text-xl font-bold text-white">
-              АДР<span className="text-yellow-600">Инстрой</span>
+              АДР<span className="text-yellow-800">Инстрой</span>
             </h1>
           </div>
 
@@ -21,14 +21,14 @@ export function Navbar() {
             <div className="ml-10 flex items-baseline space-x-8">
               <a
                 href="#services"
-                className="font-geist text-white hover:text-yellow-600 transition-colors duration-200"
+                className="font-geist text-white hover:text-yellow-800 transition-colors duration-200"
               >
                 Услуги
               </a>
-              <a href="#advantages" className="font-geist text-white hover:text-yellow-600 transition-colors duration-200">
+              <a href="#advantages" className="font-geist text-white hover:text-yellow-800 transition-colors duration-200">
                 Преимущества
               </a>
-              <a href="#faq" className="font-geist text-white hover:text-yellow-600 transition-colors duration-200">
+              <a href="#faq" className="font-geist text-white hover:text-yellow-800 transition-colors duration-200">
                 Вопросы
               </a>
             </div>
@@ -36,14 +36,14 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-yellow-600 hover:bg-yellow-700 text-black font-geist border-0">Получить смету</Button>
+            <Button className="bg-yellow-800 hover:bg-yellow-900 text-white font-geist border-0">Получить смету</Button>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-yellow-600 transition-colors duration-200"
+              className="text-white hover:text-yellow-800 transition-colors duration-200"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -56,27 +56,27 @@ export function Navbar() {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-black/98 border-t border-yellow-700/30">
               <a
                 href="#services"
-                className="block px-3 py-2 font-geist text-white hover:text-yellow-600 transition-colors duration-200"
+                className="block px-3 py-2 font-geist text-white hover:text-yellow-800 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Услуги
               </a>
               <a
                 href="#advantages"
-                className="block px-3 py-2 font-geist text-white hover:text-yellow-600 transition-colors duration-200"
+                className="block px-3 py-2 font-geist text-white hover:text-yellow-800 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Преимущества
               </a>
               <a
                 href="#faq"
-                className="block px-3 py-2 font-geist text-white hover:text-yellow-600 transition-colors duration-200"
+                className="block px-3 py-2 font-geist text-white hover:text-yellow-800 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Вопросы
               </a>
               <div className="px-3 py-2">
-                <Button className="w-full bg-yellow-600 hover:bg-yellow-700 text-black font-geist border-0">
+                <Button className="w-full bg-yellow-800 hover:bg-yellow-900 text-white font-geist border-0">
                   Получить смету
                 </Button>
               </div>

@@ -24,8 +24,8 @@ export function AboutSection() {
           </div>
           <div className="grid grid-cols-2 gap-6">
             {stats.map((stat, index) => (
-              <div key={index} className="text-center p-6 rounded-xl border border-yellow-700/30 bg-white/5">
-                <div className="text-4xl font-bold text-yellow-600 mb-2 font-orbitron">{stat.value}</div>
+              <div key={index} className="text-center p-6 rounded-xl border border-yellow-800/30 bg-white/5">
+                <div className="text-4xl font-bold text-yellow-800 mb-2 font-orbitron">{stat.value}</div>
                 <div className="text-muted-foreground">{stat.label}</div>
               </div>
             ))}

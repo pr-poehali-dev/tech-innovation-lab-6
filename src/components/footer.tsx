@@ -8,17 +8,17 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              АДР<span className="text-yellow-600">Инстрой</span>
+              АДР<span className="text-yellow-800">Инстрой</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Профессиональный ремонт и обслуживание многоквартирных домов. Работаем с УК, ТСЖ и ЖСК.
             </p>
             <div className="flex flex-col space-y-2">
-              <a href="tel:+79656123660" className="flex items-center gap-2 text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+              <a href="tel:+79656123660" className="flex items-center gap-2 text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                 <Phone size={16} />
                 <span className="font-space-mono text-sm">+7 (965) 612-36-60</span>
               </a>
-              <a href="mailto:amatsy97@mail.ru" className="flex items-center gap-2 text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+              <a href="mailto:amatsy97@mail.ru" className="flex items-center gap-2 text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                 <Mail size={16} />
                 <span className="font-space-mono text-sm">amatsy97@mail.ru</span>
               </a>
@@ -34,22 +34,22 @@ export function Footer() {
             <h3 className="font-orbitron text-white font-semibold mb-4">Услуги</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                   Фасады и кровля
                 </a>
               </li>
               <li>
-                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                   Инженерные системы
                 </a>
               </li>
               <li>
-                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                   Электрика
                 </a>
               </li>
               <li>
-                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+                <a href="#services" className="font-space-mono text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                   Благоустройство
                 </a>
               </li>
@@ -61,12 +61,12 @@ export function Footer() {
             <h3 className="font-orbitron text-white font-semibold mb-4">Компания</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#advantages" className="font-space-mono text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+                <a href="#advantages" className="font-space-mono text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                   О нас
                 </a>
               </li>
               <li>
-                <a href="#faq" className="font-space-mono text-gray-400 hover:text-yellow-600 transition-colors duration-200">
+                <a href="#faq" className="font-space-mono text-gray-400 hover:text-yellow-800 transition-colors duration-200">
                   Вопросы
                 </a>
               </li>
@@ -79,7 +79,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-space-mono text-gray-400 text-sm">© 2026 АДР Инстрой. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="font-space-mono text-gray-400 hover:text-yellow-600 text-sm transition-colors duration-200">
+              <a href="#" className="font-space-mono text-gray-400 hover:text-yellow-800 text-sm transition-colors duration-200">
                 Политика конфиденциальности
               </a>
             </div>

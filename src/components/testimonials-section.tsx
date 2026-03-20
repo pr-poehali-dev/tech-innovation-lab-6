@@ -41,7 +41,7 @@ export function TestimonialsSection() {
               <CardContent className="p-6">
                 <p className="text-card-foreground mb-6 leading-relaxed italic">"{testimonial.content}"</p>
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-yellow-600 flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-yellow-800 flex items-center justify-center flex-shrink-0">
                     <span className="text-white text-sm font-bold">{testimonial.initials}</span>
                   </div>
                   <div>
