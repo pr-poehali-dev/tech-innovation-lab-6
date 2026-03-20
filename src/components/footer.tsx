@@ -7,8 +7,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-montserrat text-2xl font-black tracking-tight text-white uppercase mb-4">
-              АДР<span className="text-amber-400">Инстрой</span>
+            <h2 className="font-montserrat text-3xl font-black tracking-tight text-white uppercase mb-4">
+              АДР<span className="text-amber-400">ИНСТРОЙ</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Профессиональный ремонт и обслуживание многоквартирных домов. Работаем с УК, ТСЖ и ЖСК.
@@ -77,7 +77,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-amber-500/30">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">© 2026 АДР Инстрой. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2026 АДРИНСТРОЙ. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="font-space-mono text-gray-400 hover:text-amber-400 text-sm transition-colors duration-200">
                 Политика конфиденциальности

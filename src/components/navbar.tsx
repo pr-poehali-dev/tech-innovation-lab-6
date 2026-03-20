@@ -11,8 +11,8 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="font-montserrat text-xl font-black tracking-tight text-white uppercase">
-              АДР<span className="text-amber-400">Инстрой</span>
+            <h1 className="font-montserrat text-2xl font-black tracking-tight text-white uppercase">
+              АДР<span className="text-amber-400">ИНСТРОЙ</span>
             </h1>
           </div>
 

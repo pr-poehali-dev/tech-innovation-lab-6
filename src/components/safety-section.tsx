@@ -28,7 +28,7 @@ export function SafetySection() {
     <section id="advantages" className="py-24 px-6 bg-black">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4 font-orbitron">Почему выбирают АДР <span className="text-amber-400">Инстрой</span></h2>
+          <h2 className="text-4xl font-bold text-white mb-4 font-orbitron">Почему выбирают АДР<span className="text-amber-400">ИНСТРОЙ</span></h2>
 
         </div>
 

@@ -11,9 +11,9 @@ export function AboutSection() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6 font-sans">О компании АДР Инстрой</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-6 font-montserrat">О компании АДР<span className="text-amber-400">ИНСТРОЙ</span></h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              АДР Инстрой — подрядная организация, специализирующаяся на ремонте и обслуживании
+              АДРИНСТРОЙ — подрядная организация, специализирующаяся на ремонте и обслуживании
               многоквартирных домов. Основной регион — Казань и Республика Татарстан,
               также работаем в Москве. Сотрудничаем с управляющими компаниями, ТСЖ и ЖСК.
             </p>

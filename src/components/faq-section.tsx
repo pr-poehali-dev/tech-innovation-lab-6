@@ -40,7 +40,7 @@ export function FAQSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-orbitron">Частые вопросы</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-space-mono">
-            Ответы на популярные вопросы о сотрудничестве с АДР Инстрой
+            Ответы на популярные вопросы о сотрудничестве с АДРИНСТРОЙ
           </p>
         </div>
 

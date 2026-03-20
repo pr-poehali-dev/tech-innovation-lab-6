@@ -114,7 +114,7 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = ["АДР", "Инстрой"]
+  const titleWords = ["АДРИНСТРОЙ"]
   const subtitle = "Профессиональный ремонт и обслуживание многоквартирных домов."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
@@ -156,12 +156,12 @@ export const Hero3DWebGL = () => {
       </div>
 
       <div className="h-screen uppercase items-center w-full absolute z-[60] pointer-events-none px-10 flex justify-center flex-col">
-        <div className="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-extrabold font-orbitron">
+        <div className="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-extrabold font-montserrat">
           <div className="flex space-x-2 lg:space-x-6 overflow-hidden text-white">
             {titleWords.map((word, index) => (
               <div
                 key={index}
-                className={`${index < visibleWords ? "fade-in" : ""} ${index === 1 ? "text-amber-400" : ""}`}
+                className={`${index < visibleWords ? "fade-in" : ""}`}
                 style={{
                   animationDelay: `${index * 0.13 + (delays[index] || 0)}s`,
                   opacity: index < visibleWords ? undefined : 0,
