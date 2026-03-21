@@ -14,7 +14,7 @@ export function CTASection() {
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 pulse-button text-lg px-8 py-4"
-              onClick={() => window.open("https://max.ru/+79656123660", "_blank")}
+              onClick={() => window.open("https://max.ru/+78986724453", "_blank")}
             >
               Получить смету
             </Button>
