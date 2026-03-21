@@ -1,5 +1,18 @@
 import { Button } from "@/components/ui/button"
 
+const PHONE = "+79867244553"
+const PHONE_DISPLAY = "+7 (986) 724-45-53"
+
+function openMax() {
+  const maxUrl = `https://max.ru/${PHONE}`
+  const win = window.open(maxUrl, "_blank")
+  setTimeout(() => {
+    if (!win || win.closed || typeof win.closed === "undefined") {
+      window.location.href = `tel:${PHONE}`
+    }
+  }, 1500)
+}
+
 export function CTASection() {
   return (
     <section className="py-24 px-6 bg-black">
@@ -14,17 +27,19 @@ export function CTASection() {
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 pulse-button text-lg px-8 py-4"
-              onClick={() => window.open("https://max.ru/+79867244553", "_blank")}
+              onClick={openMax}
             >
               Получить смету
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4 bg-transparent"
-            >
-              Узнать о нас
-            </Button>
+            <a href={`tel:${PHONE}`}>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4 bg-transparent w-full"
+              >
+                Позвонить {PHONE_DISPLAY}
+              </Button>
+            </a>
           </div>
         </div>
       </div>
