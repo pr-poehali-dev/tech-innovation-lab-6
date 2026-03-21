@@ -14,9 +14,9 @@ export function Footer() {
               Профессиональный ремонт и обслуживание многоквартирных домов. Работаем с УК, ТСЖ и ЖСК.
             </p>
             <div className="flex flex-col space-y-2">
-              <a href="tel:+78986724453" className="flex items-center gap-2 text-gray-400 hover:text-amber-400 transition-colors duration-200">
+              <a href="tel:+79867244553" className="flex items-center gap-2 text-gray-400 hover:text-amber-400 transition-colors duration-200">
                 <Phone size={16} />
-                <span className="font-space-mono text-sm">+7 (898) 672-44-53</span>
+                <span className="font-space-mono text-sm">+7 (986) 724-45-53</span>
               </a>
               <a href="mailto:adr_instroy@mail.ru" className="flex items-center gap-2 text-gray-400 hover:text-amber-400 transition-colors duration-200">
                 <Mail size={16} />
